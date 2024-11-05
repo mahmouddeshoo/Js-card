@@ -1,14 +1,14 @@
-let h2 = "Empower your learning journey online";
-let p = "Babylon - Svelte Education Template is a modern eLearning platform template built with SvelteKit and Tailwind CSS";
+let ourTitle = "Empower your learning journey online";
+let detailsPart = "Babylon - Svelte Education Template is a modern eLearning platform template built with SvelteKit and Tailwind CSS";
 
 
-let card =`  <section class="container">
+let cardComponent =`  <section class="container">
         <div id="title">
-        <h2>${h2}</h2>
-        <p>${p}</p>
+        <h2>${ourTitle}</h2>
+        <p>${detailsPart}</p>
         </div>
         <div id="card">
             <img src="img/sound.jpg" alt="sound">
         </div>
     </section>`;
-document.write(card);
+document.write(cardComponent);
